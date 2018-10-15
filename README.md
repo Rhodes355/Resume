@@ -39,9 +39,10 @@ public static int FirstFactorial(int num) {
             
   }
 ```
-### Other Projects
+### Projects
 
 [String Reassembly](https://github.com/Rhodes355/Portfolio/blob/master/StringReassembly.java)
+[Map With Hashing](https://github.com/Rhodes355/Portfolio/blob/master/MapWithHashing.java)
 
 ### Contact
 
