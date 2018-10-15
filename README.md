@@ -1,32 +1,34 @@
-## Welcome to GitHub Pages
+# Cody Rhodes
 
-You can use the [editor on GitHub](https://github.com/Rhodes355/Portfolio/edit/master/README.md) to maintain and preview the content for your website in Markdown .
+## Ohio State University Student
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Skills
+- C#, C++
+- Java
+- Python
+- Database Management
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Example Code
 
 ```markdown
-Syntax highlighted code block
+@Override
+    public final void add(K key, V value) {
+        assert key != null : "Violation of: key is not null";
+        assert value != null : "Violation of: value is not null";
+        assert !this.hasKey(key) : "Violation of: key is not in DOMAIN(this)";
 
-# Header 1
-## Header 2
-### Header 3
+        int hashCode = key.hashCode();
+        int bucketNumber = mod(hashCode, this.hashTable.length());
 
-- Bulleted
-- List
+        Map<K, V> storage = this.hashTable.entry(bucketNumber);
+        storage.add(key, value);
+        this.hashTable.setEntry(bucketNumber, storage);
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+    }
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+This code example is from a school project named [MapWithHashing](https://github.com/Rhodes355/Portfolio/blob/master/MapWithHashing.java). In which I worked with a partner to implement a map class using hashing.
+
 
 ### Jekyll Themes
 
