@@ -32,7 +32,7 @@ This code example is from a school project named [Map With Hashing](https://gith
 
 ### Other Projects
 
-[String Reassembly] (https://github.com/Rhodes355/Portfolio/blob/master/StringReassembly.java)
+[String Reassembly](https://github.com/Rhodes355/Portfolio/blob/master/StringReassembly.java)
 
 ### Contact
 
