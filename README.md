@@ -39,6 +39,43 @@ public static int FirstFactorial(int num) {
             
   }
 ```
+Java code from project [Expression Tree](https://github.com/Rhodes355/Portfolio/blob/master/ExpressionTree.java). This snippet of code is a function that takes a string expression of the format "5 10 15 - * 7 +" and creates a tree capable of returning "5 * 10 - 15 + 7". Other functions in the project can convert to prefix, infix, or postfix notation.
+
+```markdown
+public static TreeNode<String> buildTreeFromString(String expr){
+		String[] exprArr = expr.split("\\s+");
+		Stack<TreeNode<String>> exprStack = new Stack<TreeNode<String>>();
+		String[] ops = {"+", "-", "*", "/", "%"};
+		
+		for (String s : exprArr){
+			if (Arrays.asList(ops).contains(s)){ // If it is an operator
+				TreeNode<String> t = new TreeNode<String>(s);
+				TreeNode<String> right;
+				TreeNode<String> left;
+				if (exprStack.size() < 2){ // Need 2 nodes to pop
+					return null;
+				} else {
+					right = exprStack.pop();
+					left = exprStack.pop();
+				}
+				t.setRightChild(right);
+				t.setLeftChild(left);
+				exprStack.push(t);
+			} else {
+				TreeNode<String> t = new TreeNode<String>(s);
+				exprStack.push(t);
+			}
+			
+		}
+		
+		if (exprStack.size() > 1){ // Improper formatting. Return False
+			return null;
+		}
+		
+		
+		return exprStack.pop();
+	}
+```
 ### Projects
 
 [String Reassembly](https://github.com/Rhodes355/Portfolio/blob/master/StringReassembly.java)
