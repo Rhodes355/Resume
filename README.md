@@ -9,7 +9,7 @@
 - Database Management
 
 ### Example Code
-
+This code example is from a school project named [Map With Hashing](https://github.com/Rhodes355/Portfolio/blob/master/MapWithHashing.java), in which I worked with a partner to implement a map class using hashing.
 ```markdown
 @Override
     public final void add(K key, V value) {
@@ -26,10 +26,19 @@
 
     }
 ```
+C# example showing a function to return the factorial of a number (ex. 4! = 24). Could be done recursively however recursive functions are generally less readable in my experience and slower than iterative solutions in many cases.
+```markdown
+public static int FirstFactorial(int num) { 
+  
+    int factorial = 1;
+    for (int i = 1;i <= num;i++){
+        factorial = factorial * i;
+    }
 
-This code example is from a school project named [Map With Hashing](https://github.com/Rhodes355/Portfolio/blob/master/MapWithHashing.java). In which I worked with a partner to implement a map class using hashing.
-
-
+    return factorial;
+            
+  }
+```
 ### Other Projects
 
 [String Reassembly](https://github.com/Rhodes355/Portfolio/blob/master/StringReassembly.java)
