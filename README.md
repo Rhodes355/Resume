@@ -27,13 +27,13 @@
     }
 ```
 
-This code example is from a school project named [MapWithHashing](https://github.com/Rhodes355/Portfolio/blob/master/MapWithHashing.java). In which I worked with a partner to implement a map class using hashing.
+This code example is from a school project named [Map With Hashing](https://github.com/Rhodes355/Portfolio/blob/master/MapWithHashing.java). In which I worked with a partner to implement a map class using hashing.
 
 
-### Jekyll Themes
+### Other Projects
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Rhodes355/Portfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[String Reassembly] (https://github.com/Rhodes355/Portfolio/blob/master/StringReassembly.java)
 
-### Support or Contact
+### Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Email: Rhodes.355@osu.edu
