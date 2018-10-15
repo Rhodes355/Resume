@@ -82,6 +82,8 @@ public static TreeNode<String> buildTreeFromString(String expr){
 
 [Map With Hashing](https://github.com/Rhodes355/Portfolio/blob/master/MapWithHashing.java)
 
+[Expression Tree](https://github.com/Rhodes355/Portfolio/blob/master/ExpressionTree.java)
+
 ### Contact
 
 Email: Rhodes.355@osu.edu
