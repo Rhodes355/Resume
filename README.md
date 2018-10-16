@@ -26,6 +26,17 @@ This code example is from a school project named [Map With Hashing](https://gith
 
     }
 ```
+
+Example Python code that takes a rectangle of format ( (min X, max X), (min Y, max Y) ) and returns an array of points within the rectangle.
+```markdown
+def search_all(points, rect):
+    found = []
+    for p in points:
+        x,y = p.x, p.y
+        if not(rect[0][0]>x or rect[0][1]<x or rect[1][0]>y or rect[1][1]<y):
+            found.append(p)
+    return found
+```
 C# example showing a function to return the factorial of a number (ex. 4! = 24). Could be done recursively however recursive functions are generally less readable in my experience and slower than iterative solutions in many cases.
 ```markdown
 public static int FirstFactorial(int num) { 
