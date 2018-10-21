@@ -8,6 +8,17 @@
 - Python
 - Database Management
 
+### Projects
+
+[String Reassembly](https://github.com/Rhodes355/Portfolio/blob/master/StringReassembly.java)
+
+[Map With Hashing](https://github.com/Rhodes355/Portfolio/blob/master/MapWithHashing.java)
+
+[Expression Tree](https://github.com/Rhodes355/Portfolio/blob/master/ExpressionTree.java)
+
+### Current Project
+I am working with a fellow OSU student on a version of Pong developed in C# using MonoGame. The goal of this collaboration is to practice software design and working with git on a team project. This can be found on my [Pong](https://github.com/Rhodes355/Pong) repository.
+
 ### Example Code
 This code example is from a school project named [Map With Hashing](https://github.com/Rhodes355/Portfolio/blob/master/MapWithHashing.java), in which I worked with a partner to implement a map class using hashing.
 ```markdown
@@ -87,13 +98,6 @@ public static TreeNode<String> buildTreeFromString(String expr){
 		return exprStack.pop();
 	}
 ```
-### Projects
-
-[String Reassembly](https://github.com/Rhodes355/Portfolio/blob/master/StringReassembly.java)
-
-[Map With Hashing](https://github.com/Rhodes355/Portfolio/blob/master/MapWithHashing.java)
-
-[Expression Tree](https://github.com/Rhodes355/Portfolio/blob/master/ExpressionTree.java)
 
 ### Contact
 
