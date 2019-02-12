@@ -17,9 +17,27 @@
 [Expression Tree](https://github.com/Rhodes355/Portfolio/blob/master/ExpressionTree.java)
 
 ### Current Project
-[Pong](https://github.com/Rhodes355/Pong)
+[Calculating Market Shares](https://github.com/Rhodes355/Portfolio/blob/master/MarketShares.py)
 
-I am working with a fellow OSU student on a version of Pong developed in C# using MonoGame. The goal of this collaboration is to practice software design and working with git on a team project. Currently we have some basic controls and a method for initializing the ball position and a random velocity for the ball to start the game. This section will be updated as the project continues.
+The goal of this project is to explore using ArcGIS Pro and Python together to better understand creating and sharing custom tools. Data is provided for and based on a workshop created by a professor of OSU, Ningchuan Xiao. The objective is to compute the 'Market Share' of each public library in Franklin County, Ohio.
+
+Below is a small snippet from the python code in the custom tool. Arcpy is an imported package that provides powerful tools for geographic and spatial analysis.
+
+The variable 'intersect' is a geographic feature class, this feature contains useful information such as 'POP' which is the population data for Franklin County. This code first adds a field, "Percentage" which has the type "DOUBLE", to the attribute table of the feature class 'intersect.
+```markdown
+arcpy.AddField_management(intersect, "Percentage", "DOUBLE")
+```
+
+Then we create a cursor object which takes two columns in the attribute table for the feature and uses the population column to calculate percent market share. Each row must be updated using cursor.updateRow() on each pass of the for loop
+```markdown
+cursor = arcpy.da.UpdateCursor(intersect,['POP', 'Percentage'])
+cursor.reset()
+for row in cursor:
+    pcnt = 100 * row[0]/total_pop
+    row[1] = pcnt
+    cursor.updateRow(row)
+```
+
 
 ### Example Code
 This code example is from a school project named [Map With Hashing](https://github.com/Rhodes355/Portfolio/blob/master/MapWithHashing.java), in which I worked with a partner to implement a map class using hashing.
