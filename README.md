@@ -71,7 +71,7 @@ def search_all(points, rect):
 Java code example showcasing my most difficult project to date
 ```markdown
 public static void HelloWorld() { 
-	System.out.print("Hello World!)
+	System.out.print("Hello World!");
   }
 ```
 Java code from project [Expression Tree](https://github.com/Rhodes355/Portfolio/blob/master/ExpressionTree.java). This snippet of code is a function that takes a string expression of the format "5 10 15 - * 7 +" and creates a tree capable of returning "5 * 10 - 15 + 7". Other functions in the project can convert to prefix, infix, or postfix notation.
