@@ -6,8 +6,8 @@
 
 ### Contact
 
-Phone: (614) 619-0427
-Email: Rhodes.355@osu.edu
+#### Phone: (614) 619-0427
+#### Email: Rhodes.355@osu.edu
 
 ### Work
 
