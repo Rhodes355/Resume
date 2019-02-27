@@ -24,11 +24,11 @@ Involved in tutoring and mentoring in need kids ranging from preschool to middle
 - Database Management
 
 ### References
-Professional:
-	Josh Halstead – General Manager – (330) 388-5566
-	Francisco Jaramillo – Service Manager – (614) 638-1161
-Personal:
-	Adrian Golbourne – (513) 288-7765
+#### Professional:
+###### Josh Halstead – General Manager – (330) 388-5566
+###### Francisco Jaramillo – Service Manager – (614) 638-1161
+#### Personal:
+###### Adrian Golbourne – (513) 288-7765
 
 ### Portfolio
 
