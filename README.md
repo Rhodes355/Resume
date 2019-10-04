@@ -2,34 +2,32 @@
 
 ## Ohio State University Student
 
-2019 - Bachelor's Degree - Geographic Information Systems, Computer Science
+2019 - Bachelor's Degree - Geographic Information Systems, Minor in Computer Science
 
 ### Contact
 
 #### Phone: (614) 619-0427
-#### Email: Rhodes.355@osu.edu
+#### Email: RhodesC.355@gmail.com
 
 ### Work
 
-#### Software Designer | 2018-2019 | OSU - Columbus, OH
-Develop software tools for statistical analysis of Geographic/Census data.
+#### Kitchen Manager | 2017-Present | Canal Winchester, OH
+Certified Trainer: In charge of training new hires in all back of house procedures and acclimating them to the Chipotle work flow. Daily duties include managing a team of 8 to ensure quick and friendly customer service during work week
 
 #### Columbus Library Volunteer | 2017-2018 | Columbus Metropolitan Library - Gahanna, OH
-Involved in tutoring and mentoring in need kids ranging from preschool to middle school
+Involved in tutoring and mentoring in need kids ranging from preschool to middle school. Led a project to build a website guided tour of OSU to help encourage the kids to pursue a higher education in their future.
 
 ### Skills
-- C#, C++
+- ESRI products
+- ArcMap, QGIS
+- Object Oriented Programming
+- Agile Development
+- C, C#, C++
 - Java
 - Python
+- SQL
+- Microsoft Office, Word, Excel
 - Database Management
-
-### References
-#### Professional:
-Josh Halstead – General Manager – (330) 388-5566
-
-Francisco Jaramillo – Service Manager – (614) 638-1161
-#### Personal:
-Adrian Golbourne – (513) 288-7765
 
 ### Portfolio
 
